@@ -5,10 +5,9 @@ on:
     types: [opened, reopened]
 
 permissions:
-  contents: read
   issues: write
 
 jobs:
   triage:
-    uses: stacklok/.github/.github/workflows/needs-triage.yml@v1
+    uses: stacklok/.github/.github/workflows/needs-triage.yml@b43e3f174f9bbf2ca4efe6e421a1d007e7fa1b8f  # v1
 

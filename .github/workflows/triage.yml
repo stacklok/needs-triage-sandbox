@@ -1,8 +1,11 @@
+name: Needs Triage
+
 on:
   issues:
     types: [opened, reopened]
 
 permissions:
+  contents: read
   issues: write
 
 jobs:
